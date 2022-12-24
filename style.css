@@ -74,6 +74,41 @@ ul {
     font-size: .9rem;
   } */
 
+.jobs {
+
+    margin-bottom: 100px;
+  }
+
+.job {
+
+    margin-bottom: 25px;
+  }
+
+.time-place {
+
+    display:block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.job__company {
+    font-weight: 700;
+    /* display: inline-block; */
+    color:#7b2d68
+  }
+
+.job__time {
+
+    font-size: .9rem;
+    font-family: Inconsolata,monospace;
+  }
+
+.job__position {
+
+    box-sizing: inherit;
+    font-weight: 300;
+    font-size: 1rem;
+}
 footer {
     /* font-size: 1rem; */
     background: #0F3057;
